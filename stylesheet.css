@@ -27,7 +27,7 @@ body{
     left: 0;
     width: 100%;
     padding: 30px 20px;
-    background:transparent;
+    background:black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -292,90 +292,6 @@ body{
 }
 
 
-
-/*skills*/
-.skills{
-    position: relative;
-    width: 100%;
-    justify-content: space-between;
-    height: 100vh;
-    background: url(images/bg-image\ copy.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    padding: 70px 10% 0;
-}
-.sub-title {
-    text-align: center;
-    font-size: 52px;
-    padding-bottom: 60px;
-  
-}
-.sub-title span{
-    color: #0ef;
-}
-
-#section{
-    display: flex;
-    flex-wrap: wrap;
-}
-.container1{
-    width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
-}
-.headings1{
-    text-align: center;
-    text-decoration: none;
-    text-underline-offset:10px;
-    text-decoration-thickness: 5px;
-    margin-bottom: 50px;
-}
-.bar{
-    font-size: 23px;
-}
-.Technical-bars .bar {
-   margin-top: 40px 0;
-}
-.Technical-bars .bar:first-child{
-    margin-bottom: 0;
-}
-.Technical-bars .bar:last-child{
-    margin-bottom: 5px;
-}
-.Technical-bars .bar .infospan{
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards ;
-    opacity: 0;
-}
-.Technical-bars .bar .progress-line{
-    position: relative;
-    border-radius: 10px;
-    width: 100%;
-    height: 5px;
-    background-color: #000;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-@keyframes animate{
-    100%{
-        transform: scaleX(1);
-    }
-}
-.Technical-bars .bar .progress-line span{
-    height: 100%;
-    background-color: #0ef;
-    position: absolute;
-    border-radius: 10px;
-    animation: animate 1s 1s ;
-}
-
-/*skills*/
-
 /*Service-section*/
 
 /*Portfolio-section*/
@@ -472,6 +388,10 @@ body{
  }
  .row:hover .layer{
     height: 100%;
+ }
+ .photoshop img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(359px,auto));
  }
 /*Portfolio-section*/
 
